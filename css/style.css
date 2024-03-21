@@ -1,0 +1,133 @@
+
+/* Resetando as margens e preenchimentos padrão de todos os elementos para garantir 'consistência' */
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+/* Estilos utilizado do corpo da página */
+body {
+    width: 100%;
+    height: 100vh;
+    font-size: 20px; /* tamanho da letra utilizada*/
+  }
+  
+/* Estilos do cabeçalho */
+   header{
+    padding: 45px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Utilizei justify-content space-between para "separar" as divs em 3 partes */
+    align-items: center;
+    background-color: #01041B;
+  }
+
+  header h1{
+    color: #fff;
+    font-size: 50px;
+    margin-left: 25px;
+
+  }
+  
+  header span{
+    color: red;
+  }
+
+  /* Estilos de links na navegação */
+  nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 20px;
+  }
+
+  .final a{
+    color: #fff;
+    padding: 0 20px; /* Espaçamento interno nas laterais */
+    font-size: 25px;
+    text-decoration: none; /* text-decoration usado para tirar o underline */
+
+
+}
+.final .account {
+  color: red;
+}
+.final span{
+  color: red;  /* Cor específica para os spans dentro da classe 'final' */
+}
+
+main{
+  display: flex; /*  */
+  flex-direction: row; /* Usei flex-direction para alinhamento dos itens na horizontal */
+  background-color: #01041B; /* Utilizada esse cor de fundo */
+}
+
+main h1{
+  font-size: 150px; /*Tamanho da fonte*/
+  margin-left: 25px; 
+  color: #fff;
+}
+
+/* Estilos da classe 'cents' */
+.cents img{
+  width: 1100px;
+  height: 850px;
+}
+
+
+/* Estilos para a classe 'meio' dentro da seção principal */
+main .meio{
+  padding: 30px; /* Espaçamento interno */
+  margin-left: 15px; /* Margem à esquerda */
+}
+
+main .meio span{
+  color: red; /* Utilizei o color red para deixar a palavra FECAF em vermelho */
+  
+}
+
+main .meio p{
+  color: #fff; /* Cor do texto */
+  font-size: 38px; /* Tamanho da fonte */
+  margin-top: 30px; /* Margem superior */
+  margin-left: 25px; /* Margem à esquerda */
+  text-align: justify; /* Justificar o texto */
+}
+
+/* Estilos para os botões de download */
+.download, .download2{
+  margin-top: 60px;
+  width: 329px;
+  height: 101px;
+  top: 837px;
+  left: 89px;
+  gap: 10.33px;
+  border-radius: 45px;
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+.download{
+  margin-right: 30px;
+  color: #fff;
+  background-color: red;
+}
+
+.download2{
+  margin-right: 30px;
+  color: #fff;
+  background-color: #410093;
+}
+
+
+/* Estilos do rodapé */
+footer{
+ background-color: #05072F;
+ height: 100px;
+ color: #fff;
+ display: flex; /* Usando flexbox para layout */
+ align-items: center;
+ justify-content: center;
+ font-size: 26px;
+ font-weight: bold; /*Deixar a fonte em negrito */
+}
